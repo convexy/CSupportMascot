@@ -9,4 +9,14 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Resources\notify.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\notify.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

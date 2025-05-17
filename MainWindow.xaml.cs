@@ -8,7 +8,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Windows.Forms;
 
 namespace CSupportMascot
 {
@@ -17,7 +16,6 @@ namespace CSupportMascot
     /// </summary>
     public partial class MainWindow : Window
     {
-        private NotifyIcon _notifiIcon;
         public MainWindow()
         {
             InitializeComponent();
